@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="black_jack.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>BlackJack</h1> 
+
+   <!-- <form> -->
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" id="submit" onclick=sub() value="Submit">
+  <!-- </form> -->
+   <p id="message-el">Want to play?</p>
+   <p id="card-el">Cards:</p>
+   <p id="sum-el">Sum:</p>
+   <button onclick= startGame()>START GAME</button>
+  <br><button onclick=newCard()>New Cards</button>
+  <p id="player-el"></p>
+   <script src="black_jack.js"></script>
+</body>
+</html>  
